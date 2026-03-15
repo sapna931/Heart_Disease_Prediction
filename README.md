@@ -1,14 +1,33 @@
 # Heart_Disease_Prediction
 Machine Learning based heart disease prediction web app using Streamlit.
 <br>
-# Heart Disease Prediction ❤️
+# ❤️ Heart Disease Prediction
 
-This project predicts heart disease risk using Machine Learning.
+This project predicts the risk of heart disease using Machine Learning and Streamlit.
 
-Technologies Used:
-Python
-Scikit-learn
-Streamlit
+## 🚀 Features
+- Predict heart disease risk
+- Interactive Streamlit web app
+- Risk percentage visualization
+- User friendly interface
 
-Run the project:
+## 🛠 Technologies Used
+- Python
+- Scikit-learn
+- Streamlit
+- Plotly
+- Pandas
+## 📂 Project Structure
+Heart-Disease-Prediction
+│
+├── app.py
+├── train_model.py
+├── heart.csv
+├── heart_model.pkl
+├── scaler.pkl
+## ▶️ How to Run
+Install libraries
+pip install pandas scikit-learn streamlit plotly
+Run the app
+
 streamlit run app.py
